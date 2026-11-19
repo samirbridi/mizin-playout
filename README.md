@@ -8,8 +8,8 @@ equipe e áudio de baixa latência (WASAPI e **AES67**) — nativo no Windows, s
 
 Site oficial, novidades, tutorial e verificação de versão: **https://playoutmizin.pages.dev**
 
-> Este repositório guarda só os **downloads** (espelho do site), com o mesmo SHA-256 publicado no site.
-> O código-fonte não é público. **[Baixar a versão mais recente →](https://github.com/samirbridi/mizin-playout/releases)**
+> Esta página apresenta o Mizin Playout. O código-fonte não é público, e os downloads ficam no
+> **[site oficial](https://playoutmizin.pages.dev/#download)**, com acesso por senha.
 
 ## O que ele faz
 
@@ -39,11 +39,8 @@ Site oficial, novidades, tutorial e verificação de versão: **https://playoutm
 
 ## Download
 
-Em **[Releases](https://github.com/samirbridi/mizin-playout/releases)** cada versão traz:
-
-- `MizinPlayout-…-setup.exe` — instalador para a sua conta de usuário (recomendado);
-- `MizinPlayout-…-portable.zip` — portátil, roda até de um pendrive;
-- a tabela de SHA-256, idêntica à do site. Para conferir no PowerShell: `Get-FileHash .\arquivo.exe`.
+Os downloads ficam no **[site oficial](https://playoutmizin.pages.dev/#download)** e pedem a senha de acesso.
+Lá estão o instalador, a versão portátil e o SHA-256 de cada arquivo.
 
 Windows 10 ou 11 (64 bits). Esta prévia ainda não tem assinatura digital: o SmartScreen pode mostrar
 "O Windows protegeu o computador" — clique em **Mais informações → Executar assim mesmo**. O próprio app
@@ -57,6 +54,5 @@ Live video playout built for the show: independent Programs, instant CUT and FAD
 outputs, NDI and OMT, a browser monitor for the whole crew and low-latency audio (WASAPI and AES67) —
 native on Windows, no file conversion.
 
-This repository only hosts the **downloads** (a mirror of the official site, same SHA-256). The source code
-is not public. Get the latest version in **[Releases](https://github.com/samirbridi/mizin-playout/releases)**
-or at **https://playoutmizin.pages.dev**.
+This page presents Mizin Playout. The source code is not public, and downloads are available on the
+**[official site](https://playoutmizin.pages.dev/#download)** with an access password.
