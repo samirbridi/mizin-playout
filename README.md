@@ -2,7 +2,7 @@
 
 Playout de vídeo ao vivo, feito para o show. Roda os vídeos do evento com **Programs independentes**,
 CUT e FADE na hora, multiview, saídas para telas, **NDI** e **OMT**, monitor no navegador para toda a
-equipe e áudio de baixa latência (WASAPI e **AES67**) — nativo no Windows, sem converter seus arquivos.
+equipe e áudio de baixa latência (**ASIO®**, WASAPI e **AES67**) — nativo no Windows, sem converter seus arquivos.
 
 ![Mesa principal: Programs, playlists, prévia e NO AR](docs/main-pt-BR.webp)
 
@@ -21,8 +21,12 @@ Site oficial, novidades, tutorial e verificação de versão: **https://playoutm
   quadros, sem decodificar de novo. Decks destacáveis com tally NO AR.
 - **Vídeo pela rede.** NDI e Open Media Transport com áudio, na resolução e taxa de áudio do projeto
   (44,1, 48 ou 96 kHz). Painel de acesso à rede libera o app no Firewall do Windows com um clique.
-- **Áudio de baixa latência.** WASAPI exclusivo a partir de 2 ms ou AES67 para sistemas Dante
-  (até 64 canais, relógio PTP), sincronizado com o vídeo.
+- **Áudio de baixa latência.** Drivers ASIO (Dante Virtual Soundcard, Behringer UMC, Blackmagic…),
+  WASAPI exclusivo a partir de 2 ms ou AES67 para sistemas Dante (até 64 canais, relógio PTP),
+  sincronizado com o vídeo.
+
+  <img src="docs/asio-compatible.png" alt="Compatível com ASIO" height="96"> ASIO é marca registrada da
+  Steinberg Media Technologies GmbH.
 - **Monitor web** para diretores e equipe no celular, só visualização, protegido por código.
 - **Várias máquinas, um show.** Mestre, reserva que assume se o principal cair e PCs sincronizados para
   telões de LED.
@@ -51,8 +55,11 @@ avisa quando há versão nova e confere assinatura e hashes; nada é instalado d
 ## English
 
 Live video playout built for the show: independent Programs, instant CUT and FADE, multiview, screen
-outputs, NDI and OMT, a browser monitor for the whole crew and low-latency audio (WASAPI and AES67) —
-native on Windows, no file conversion.
+outputs, NDI and OMT, a browser monitor for the whole crew and low-latency audio (ASIO®, WASAPI and
+AES67) — native on Windows, no file conversion.
+
+<img src="docs/asio-compatible.png" alt="ASIO compatible" height="96"> ASIO is a registered trademark of
+Steinberg Media Technologies GmbH.
 
 This page presents Mizin Playout. The source code is not public, and downloads are available on the
 **[official site](https://playoutmizin.pages.dev/#download)** with an access password.
